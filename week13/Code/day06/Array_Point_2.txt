@@ -1,0 +1,23 @@
+﻿# include <stdio.h>
+
+void Show_Array(int *p, int len) //*就是指针==地址
+{
+	int i;
+	
+	for(i = 0; i < len; ++i)
+		printf("%d\n",p[i]);
+
+//	p[0] = -1; //p[0] == *p   p[2] == *(p+2) == *(a+2) == a[2]
+//      p[i] == a[i]
+}
+
+int main(void)
+{
+	int a[5] = {1,2,3,4,5};
+
+	Show_Array(a,5); //a等价于*a[0], &a[0]本身就是int *类型
+
+//	printf("%d\n", a[0]);
+
+	return 0;
+}

@@ -1,0 +1,6 @@
+﻿		day04
+			2017/3/7
+Tue:视频学习
+PART:DataStruction
+*链表插入和删除算法的演示
+*复习

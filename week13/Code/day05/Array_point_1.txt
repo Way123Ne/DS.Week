@@ -1,0 +1,16 @@
+﻿# include <stdio.h>
+
+int main(void)
+{
+	int a[5] = {1,2,3,4,5};
+
+	//a[3] == *(a+3);
+
+	printf("%p\n", a+1);//p表示输出地址
+	printf("%p\n", a+2);
+	printf("%p\n", *a+3); //*a+3等价于 a[0]+3
+
+//	printf("%d\n", *a+3); //*a+3等价于 a[0]+3
+
+	return 0;
+}

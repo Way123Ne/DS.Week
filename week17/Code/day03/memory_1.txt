@@ -1,0 +1,20 @@
+﻿# include <stdio.h>
+int f();
+
+int main(void)
+{
+	int i = 10;
+	i = f();
+	printf("i = %d\n", i);
+	
+	for(i = 0; i < 2000; ++i)
+		f();
+
+	return 0;
+}
+
+int f()      //静态变量 ---〉循环结束 ； 如果是动态变量必须手动释放
+{
+	int j = 20;
+	return j;
+}

@@ -1,0 +1,6 @@
+﻿			day07
+				2017/1/6
+Fri:视频学习
+PART:DataStruction
+*DS_3_数据结构的特点
+*DS_4_预备知识—指针

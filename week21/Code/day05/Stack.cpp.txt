@@ -1,0 +1,19 @@
+﻿# include <stdio.h>
+# include <malloc.h>
+
+//Stack:用于操作局部变量和静态变量(k, m , i, q, p -->局部变量)
+
+void f(int k)
+{
+	int m;
+
+	double * q = (double *)malloc(200);
+}
+
+int main(void)
+{
+	int i = 10;
+	int * p = (int *)malloc(100);
+
+	return 0;
+}

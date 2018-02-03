@@ -1,0 +1,6 @@
+﻿			day06
+				2017/1/12
+Thu:视频学习
+PART:DataStruction
+*DS_预备知识_指针_2
+1>指针和数组
